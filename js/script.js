@@ -1,7 +1,7 @@
 for (i = 0; i <= book.length; i++) {
 
-	document.write("<div class='bookBox grid-item " + book[i].genre + "'>");
-	document.write("<div class='hvr-grow-shadow'>");
+	document.write("<div class='grid-item " + book[i].genre + "'>");
+	document.write("<div class='bookBox hvr-grow-shadow'>");
 	document.write("<div class='coverBox'>");
 	document.write("<img src='covers/" + book[i].image + ".jpg'>");
 	document.write("</div>");
