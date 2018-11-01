@@ -6,7 +6,7 @@ for (i = 0; i <= book.length; i++) {
 	document.write("</div>");
 	document.write("<div class='personalInfo'>");
 	document.write("<p class='authorName'>" + book[i].author + "</p>");
-	document.write("<p>" + book[i].title + "</p>");
+	document.write("<p class='title'>" + book[i].title + "</p>");
 	document.write("</div>");
 	document.write("<div class='formatBox'>");
 	if (book[i].epub === true) {

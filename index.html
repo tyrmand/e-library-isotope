@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-library</title>
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="js/isotope.js"></script>
 </head>
 
 <body>
@@ -18,7 +20,7 @@
     </header>
     <div class="select">
         <h2>Wybierz gatunek:</h2>
-        <select>
+        <select class="filter">
             <option value="*">Wszystkie</option>
             <option value="economics">Ekonomia</option>
             <option value="esoterics">Ezoteryka</option>
@@ -44,7 +46,7 @@
             <option value="documentary">Reportaż i literatura faktu</option>
         </select>
     </div>
-    <section>
+    <section class="grid">
         <script src="js/array.js"></script>
         <script src="js/script.js"></script>
     </section>
