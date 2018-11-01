@@ -269,5 +269,3 @@ book[29] = {
 	mobi: true,
 	pdf: false,
 };
-
-export default book;
